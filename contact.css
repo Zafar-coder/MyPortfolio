@@ -1,0 +1,84 @@
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+
+.container {
+  height: 70%;
+  width: 35vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding-left: 35px;
+  padding-top: 30px;
+  border-radius: 20px;
+}
+
+.container h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+}
+
+.container p {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+
+.form-container input {
+  width: 60%;
+  margin: 10px;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 7px;
+  border: 1px solid black;
+}
+
+.form-container textarea {
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 7px;
+  border: 1px solid black;
+}
+
+.form-container #phone-box {
+  margin-top: 10px;
+}
+
+#phone-box input{
+  width: 250px;
+}
+
+.form-container #textarea {
+  margin-top: 12px;
+}
+
+.form-btn {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: rgba(51, 51, 51, 0.799);
+  color: white;
+  outline: none;
+  border: none;
+}
+
+#home-btn {
+  position: absolute;
+  top: -20px;
+  right: 80px;
+  width: 140px;
+  cursor: pointer;
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgb(74 74 74 / 91%);
+  color: white;
+}

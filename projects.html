@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md Ashfak Alam - Projects</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+  <header>
+    <nav>
+      <div id="logo">
+        <img src="./Image/logo.png" alt="">
+      </div>
+      <div>
+        <ul class="navbar">
+          <li><a href="/" target="_blank">Home</a></li>
+          <li><a href="/about.html" target="_blank">About</a></li>
+          <li><a href="/services.html" target="_blank">Services</a></li>
+          <li><a href="/projects.html" target="_blank">Projects</a></li>
+          <li><a href="/blog.html" target="_blank">Blog</a></li>
+          <li><a href="/contact.html" target="_blank">Contact Me</a></li>
+      </div>
+    </nav>
+  </header>
+  <div class="info-container">
+    <div id="info">
+      <div>
+      <p id="first-para">Hi, I am</p>
+      <p id="name">Md Ashfak Alam</p> 
+      <span id="element"></span>
+      </div>
+
+      <p id="description">Bridging the gap between front-end and back-end with Java expertise.</p>
+
+      <div class="button">
+        <button type="button" class="btn" id="btn1">Download CV</button>
+        <button type="button" class="btn" id="btn2">Contact Me</button>
+      </div>
+    </div>
+    <div id="myImage"><img src="./Image/bg.png" alt=""></div>
+  </div>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Full Stack Java Developer', 'Video Editor', 'Web Designer', 'Problem Solver'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
